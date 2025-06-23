@@ -75,3 +75,6 @@ Date:   Mon Jun 23 19:43:29 2025 -0400
     Primera versión del temario subida a repositorio
 
 13.- Finalmente, validar el estado del repositorio:
+antonioeliashoshee@MacBook-Pro-de-Antonio fullstack % git status
+On branch main
+nothing to commit, working tree clean
