@@ -30,4 +30,28 @@ nothing added to commit but untracked files present (use "git add" to track)
 antonioeliashoshee@MacBook-Pro-de-Antonio fullstack % ls -l contenidos.txt
 -rw-r--r--  1 antonioeliashoshee  staff  152 Jun 23 19:31 contenidos.txt
 
-7.-
+7.- Añada el archivo al repositorio:
+antonioeliashoshee@MacBook-Pro-de-Antonio fullstack % git add .
+
+8.- Aplique los cambios realizados sobre el repositorio, usando como mensaje “Primera versión del temario subida a repositorio”:
+antonioeliashoshee@MacBook-Pro-de-Antonio fullstack % git commit -m "Primera versión del temario subida a repositorio"
+[main (root-commit) b3e9c5e] Primera versión del temario subida a repositorio
+ 2 files changed, 39 insertions(+)
+ create mode 100644 contenidos.txt
+ create mode 100644 formato.txt
+
+ 9.- Añada una nueva línea al final del archivo, con el contenido “Módulo 4: Desarrollo de aplicaciones web dinámicas”:
+No sé qué comando se colocaría. Pues lo escribí directamente en el archivo contenidos.txt
+
+10.-Verificar qué cambios existen en el repositorio que deban ser almacenados:
+antonioeliashoshee@MacBook-Pro-de-Antonio fullstack % git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   contenidos.txt
+        modified:   formato.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+11.- Aplicar nuevamente los cambios en el repositorio, esta vez con el mensaje “Versión actualizada del contenido”:
