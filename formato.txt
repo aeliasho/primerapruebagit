@@ -55,3 +55,23 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 
 11.- Aplicar nuevamente los cambios en el repositorio, esta vez con el mensaje “Versión actualizada del contenido”:
+antonioeliashoshee@MacBook-Pro-de-Antonio fullstack % git add .
+antonioeliashoshee@MacBook-Pro-de-Antonio fullstack % git commit -m "Versión actualizada del contenido"
+[main 738327b] Versión actualizada del contenido
+ 2 files changed, 27 insertions(+), 5 deletions(-)
+
+ 12.- Ver el registro de cambios creados sobre el repositorio:
+antonioeliashoshee@MacBook-Pro-de-Antonio fullstack % git log
+commit 738327b9112afbc84d5fe365b575e4b341bc010d (HEAD -> main)
+Author: aeliasho <antonioeliashoshee@gmail.com>
+Date:   Mon Jun 23 19:46:59 2025 -0400
+
+    Versión actualizada del contenido
+
+commit b3e9c5e527ac91ab3d980e239640eead9f576342
+Author: aeliasho <antonioeliashoshee@gmail.com>
+Date:   Mon Jun 23 19:43:29 2025 -0400
+
+    Primera versión del temario subida a repositorio
+
+13.- Finalmente, validar el estado del repositorio:
